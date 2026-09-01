@@ -5,7 +5,7 @@ public interface IQuittable
 {
     void Quit();   // 🎤 The one rule of this interface: anything implementing it must define Quit()
 }
-
+x    x    x    
 // 🧑‍💼 Employee class: now upgraded to implement IQuittable
 public class Employee : IQuittable
 {
@@ -22,7 +22,7 @@ public class Employee : IQuittable
     public void Quit()
     {
         // 🎬 Dramatic exit message — this is where the employee "quits"
-        Console.WriteLine($"{FirstName} {LastName} (ID: {Id}) has officially quit the company. 🎤 Drop!");
+        Console.WriteLine($"{FirstName} {LastName} (ID: {Id}) has officially quit the company. MICC DrOppp!");
     }
 }
 
@@ -33,9 +33,9 @@ class Program
         // 🏗️ Creating a new Employee object — our star of the show
         Employee emp = new Employee
         {
-            Id = 202,
-            FirstName = "Kawthar",
-            LastName = "Rivera"
+            Id = 100,
+            FirstName = "Manal",
+            LastName = "Oraha"
         };
 
         // 🎭 POLYMORPHISM MAGIC:
